@@ -1,0 +1,27 @@
+{
+  "name": "@wizsolucoes/vanilla-project-reloader",
+  "version": "1.0.0",
+  "description": "Lib js para identificar mudança na publicação do projeto.",  
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wizsolucoes/vanilla-project-reloader"
+  },
+  "author": "Givailson de Souza Neves",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {}
+}
